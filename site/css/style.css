@@ -83,6 +83,7 @@ header .header_menu .main_menu {
   background-image: url(../img/stranichka_MDM_1_.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right;
   width: 100%;
   padding-bottom: 120px;
 }
@@ -163,12 +164,37 @@ header .header_menu .main_menu {
     margin-top: 16px;
   }
 }
+@media screen and (max-width: 640px) {
+  .wrapp_header_recl {
+    background-image: url(../img/stranichka_MDM_1_640.jpg);
+    background-position: center center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .wrapp_header_recl {
+    background-image: url(../img/stranichka_MDM_1_320.jpg);
+    background-position: center;
+  }
+}
 
 .bg_section_ordering {
   background-image: url(../img/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 640px) {
+  .bg_section_ordering {
+    background-position: center center;
+    background-image: url(../img/space640.jpg);
+  }
+}
+@media screen and (max-width: 320px) {
+  .bg_section_ordering {
+    background-image: url(../img/space320.jpg);
+    background-position: right;
+    background-position: center;
+  }
 }
 
 section.ordering {
